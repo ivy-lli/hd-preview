@@ -8,19 +8,7 @@
       "name": "Launch Standalone (Chrome)",
       "type": "chrome",
       "request": "launch",
-      "url": "http://localhost:3000/?server=localhost:8081&app=designer&pmv=form-test-project&file=src_hd/form/test/project/test/test.f.json&directSave",
-      "presentation": {
-        "group": "4. Standalone",
-        "order": 1
-      },
-      "preLaunchTask": "Start Standalone",
-      "postDebugTask": "Terminate All Tasks"
-    },
-    {
-      "name": "Launch Standalone Mock (Chrome)",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:3000/mock.html",
+      "url": "http://localhost:3010/",
       "presentation": {
         "group": "4. Standalone",
         "order": 1
